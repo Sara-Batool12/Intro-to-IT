@@ -1,0 +1,18 @@
+Inputs:
+  user identification (eg. student ID, number plate)
+  entry sensor signal (car at gate)
+  exist sensor signal (car leaving)
+
+Outputs:
+  barrier control (open/close)
+  display value (number of parking spots available)
+  alert signal (light, buzzer, message when car park is full and someones tries to enter)
+
+Constants:
+  Max_capacity (200 total car park sports)
+
+Variables:
+  CarParked (the number of cars currently inside the car park)
+  availableSpots ( calculated as CarParked - availableSpots)
+  isRegistered (true/false for the user at the gate)
+  isFull (true if CarParked == Max_capacity)
