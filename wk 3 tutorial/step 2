@@ -1,0 +1,9 @@
+Input:
+-  DRIV   1 means occupied
+-  Pass   1 means occupied
+- IGN     1 means car is on
+~ 𝐵𝐸𝐿𝑇𝐷  0 means driver seat is occupied and not fastened
+~ BELTP   0 means passenger is occupied and not fastend
+
+Output: 
+-  alarm  Low (0) when seat occupied, engine starts and seatbelt not fastened
