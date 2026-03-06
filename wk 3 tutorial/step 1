@@ -1,1 +1,2 @@
-fdfd
+define problem: A car will give off an alarm when if driver seat or/and passenger seat are occupied and seatbelt not fastened. So if both are occupied, then seatbelt must be fastened, otherwise if one is occupied, then it should be fastened. 
+
