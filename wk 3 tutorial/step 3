@@ -1,0 +1,21 @@
+Plan the soultion: 
+ Alogirthm: 
+  Check ignition:
+
+  If the ignition (IGN) is 0 (OFF), then the alarm is OFF (output 1).
+  
+  If the ignition is 1 (ON), then:
+  
+  Check the driver seat:
+  
+  If the driver is present (DRIV = 1) and the driver’s belt is unfastened (BELTD̅ = 0), then the alarm must be ON (output 0).
+  
+  Check the passenger seat:
+  
+  If the passenger is present (PASS = 1) and the passenger’s belt is unfastened (BELTP̅ = 0), then the alarm must be ON (output 0).
+  
+  If neither of those seat conditions is true (no occupied seat with unfastened belt), then the alarm is OFF (output 1).
+
+
+
+
